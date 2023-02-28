@@ -31,7 +31,7 @@
               "
         class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- Container wrapper -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="top">
       <!-- Toggle button -->
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -207,54 +207,44 @@
     </section>
   </div>
 
-<!-- Section: Pricing -->
-<section class="mb-5 mb-lg-10">
+<!-- Section: Projects -->
+<section class="mb-6 mb-lg-10">
 
-  <h3 id="projects" class="fw-bold text-center mb-5">Projects</h3>
+  <h1 id="projects" class="fw-bold text-center mb-5">Projects</h1>
 
   <div class="row gx-xl-5 border-">
     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 order-2 order-lg-1">
 
       <div class="card h-100">
-        <div class="card-header text-center pt-4">
-          <p class="text-uppercase">
-            <H3>Websites</h3>
-          </p>
+        <div class="card-header text-center pt-4 ">
+          <h4 class="text-uppercase">
+            <strong>Websites</strong>
+          </h4>
 
-          <p class="mb-1">
+          <h4 class="mb-0">
             <strong>Tools</strong>
-          </p>
+          </h4>
           <p>
           
-            <i class="fab fa-html5"></i><small class="text-muted" style="font-size: 16px"> HTML</small>
-            <i class="fab fa-css3-alt"></i><small class="text-muted" style="font-size: 16px"> CSS</small>
-            <i class="fab fa-bootstrap"></i><small class="text-muted" style="font-size: 16px"> Bootstrap</small>
-            <i class="fab fa-mdb"></i><small class="text-muted" style="font-size: 16px"> MDB</small>
+            <a class="text-muted" style="font-size: 2rem" data-mdb-toggle="tooltip" title="HTML"><i class="fab fa-html5"></i></a>
+            <a class="text-muted" style="font-size: 2rem" data-mdb-toggle="tooltip" title="CSS"><i class="fab fa-css3-alt"></i></a>
+            <a class="text-muted" style="font-size: 2rem" data-mdb-toggle="tooltip" title="Bootstrap"><i class="fab fa-bootstrap"></i></a>
+            <a class="text-muted" style="font-size: 2rem" data-mdb-toggle="tooltip" title="Material Design Bootstrap"><i class="fab fa-mdb"></i></a>
+            <a class="text-muted" style="font-size: 2rem" data-mdb-toggle="tooltip" title="GitHub/Git"><i class="fab fa-github"></i></a>
           </p>
-          <p class="mb-1">
-            <strong>Philosophies</strong>
-          </p>
+          <h4 class="mb-1">
+            <strong>Considerations</strong>
+          </h4>
+          <h6 class="text-muted mb-2" >
+          Mobile-first &bullet; Material Design
+          </h6>
+          <h6 class="text-muted mb-2" >
+            Material Minimal &bullet; Responsive Design
+          </h6>
 
           <button type="button" class="btn btn-secondary btn-rounded w-100 mb-3">
-            Link
+            See more
           </button>
-
-        </div>
-        <div class="card-body">
-
-          <ol class="list-unstyled mb-0">
-            <li class="mb-3">
-              <i class="fas fa-check text-success me-3"></i>Unlimited
-              updates
-            </li>
-            <li class="mb-3">
-              <i class="fas fa-check text-success me-3"></i>Git repository
-            </li>
-            <li class="mb-3">
-              <i class="fas fa-check text-success me-3"></i>npm
-              installation
-            </li>
-          </ol>
 
         </div>
       </div>
@@ -593,8 +583,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2022 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-reset fw-bold" href="#top">Click here to get out of this rabbit hole</a>
   </div>
   <!-- Copyright -->
 </footer>
